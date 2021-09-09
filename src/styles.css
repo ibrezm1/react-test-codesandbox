@@ -2,3 +2,17 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+body {
+  background-color: #101010;
+  color: #ffffff;
+}
+h1 {
+  color: #ffffff;
+}
+nav a {
+  color: #ffffff;
+}
+footer {
+  color: #ffffff;
+}
