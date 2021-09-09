@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 
 export default function App() {
   const [toDoList, setToDoList] = useState([]);
+  // code commented below to use local storage
   //    {id:"12", note:"testnote"},
   //    {id:"13", note:"testnote is here"}
   //  ])
