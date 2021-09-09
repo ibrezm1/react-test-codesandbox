@@ -21,6 +21,7 @@ export default function App() {
   }, [toDoList]);
 
   return (
+    //Key to be added to list ul which has to be unique else warning
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!!</h2>
@@ -34,6 +35,7 @@ export default function App() {
   );
 }
 
+// React component that display have to be starting with caps
 function TodoForm(props) {
   const [name, setName] = useState();
   function handleSubmit(e) {
