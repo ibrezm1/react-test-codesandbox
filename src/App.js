@@ -46,6 +46,7 @@ function TodoForm(props) {
     setName("");
   }
   return (
+    // Neded to have name || "" else undefined to defined transition
     <form onSubmit={handleSubmit}>
       <fieldset>
         <legend>Add New Pet</legend>
